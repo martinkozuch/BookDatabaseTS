@@ -1,0 +1,121 @@
+.fav-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/istockphoto-470721440-612x612.jpg");
+    background-position: center;
+    min-height: 100vh;
+}
+
+.fav-container h1 {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    border-bottom: 4px solid black;
+    font-weight: 900;
+    padding: .2em .2em;
+    color: rgb(181, 111, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 9px;
+    text-shadow: 0px 0px 50px;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+.book-fav {
+    width: 21em;
+    height: 32em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    background: rgb(204, 204, 204);
+    background: linear-gradient(36deg, rgba(204, 204, 204, 0.6291857807576156) 9%, rgba(255, 206, 93, 0.6067768171721813) 45%);
+    border-radius: 7px;
+    border: 2px solid rgba(0, 0, 0, 0.402);
+    box-shadow: 0 20px 50px rgba(104, 101, 89, 0.728);
+}
+
+.book-fav:hover {
+    background: rgb(204, 204, 204);
+    background: linear-gradient(223deg, rgba(204, 204, 204, 0.6291857807576156) 9%, rgba(255, 206, 93, 0.6067768171721813) 45%);
+    transition: all .5s;
+}
+
+.book-fav img {
+    height: 20em;
+    width: 10em;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.fav-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.no-fav {
+    background-color: rgba(254, 206, 95, 0.612);
+    padding: .3em 1.5em;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.no-fav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.no-fav-container h2 {
+    background-color: rgba(254, 206, 95, 0.612);
+    color: black;
+    border-radius: 7px;
+    padding: .5em 1.5em;
+    border: 1px solid rgba(102, 102, 102, 0.364);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2em;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.418);
+}
+
+.no-fav-container h2:hover {
+    background-color: rgba(91, 90, 89, 0.666);
+    color: rgba(240, 255, 255, 0.766);
+    transition: all 1s;
+}
+
+.go-back-fav {
+    background-color: rgba(196, 162, 70, 0.629);
+    padding: .3em 2em;
+    border: 1px solid rgba(0, 0, 0, 0.751);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.418);
+    margin-bottom: 2em;
+}
+
+.go-back-fav:hover {
+    background-color: rgba(91, 90, 89, 0.666);
+    color: rgba(240, 255, 255, 0.766);
+    transition: all 1s;
+}
+
+
+@media screen and (max-width: 360px) {
+    .book-fav {
+        max-width: 17.6em;
+    }
+
+}

@@ -1,0 +1,94 @@
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/istockphoto-470721440-612x612.jpg");
+    background-position: center;
+    background-repeat: none;
+    min-height: 100vh;
+
+}
+
+.book-details {
+    margin-top: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+.details-container h1 {
+    margin-bottom: .5em;
+    border-bottom: 4px solid black;
+    font-weight: 900;
+    padding: .2em 1.5em;
+    color: rgb(181, 111, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 9px;
+    text-shadow: 0px 0px 50px;
+    font-size: 2.2em;
+
+
+}
+
+.book-details img {
+    width: 13em;
+    height: 20em;
+    border-radius: 5px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.418);
+}
+
+.book-details h2 {
+    margin-top: .5em;
+    border-radius: 10px;
+    border: 1px solid rgba(40, 40, 40, 0.614);
+    background-color: rgba(255, 224, 151, 0.46);
+    padding: .1em 2em;
+}
+
+.book-details h4 {
+    margin-bottom: 1em;
+}
+
+.book-details p {
+    max-width: 50em;
+    margin-top: 1em;
+    background-color: rgba(248, 248, 248, 0.656);
+    padding: 1em;
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 7px;
+    margin-bottom: 2em;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.418);
+}
+
+.book-details h4 {
+    background-color: rgba(255, 215, 166, 0.662);
+    padding: .3em 2em;
+    border: 1px solid rgba(0, 0, 0, 0.223);
+    border-radius: 5px;
+}
+
+.go-back {
+    background-color: rgba(196, 162, 70, 0.629);
+    padding: .3em 2em;
+    border: 1px solid rgba(0, 0, 0, 0.751);
+    border-radius: 5px;
+    color: rgb(17, 17, 17);
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.go-back:hover {
+    background-color: rgba(215, 196, 142, 0.629);
+}
+
+@media screen and (max-width: 350px) {
+    .book-details p {
+        width: 17.5em;
+    }
+}
